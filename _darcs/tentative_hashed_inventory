@@ -1,0 +1,474 @@
+pristine:ccc84824034ca895c80acd21211c1f0e955c7fbaf976753aadc7d7346ede8c65
+[Init
+pe@pijul.org**20160607115026
+ Ignore-this: 695c47c88f46e68ddfd1907b28f1236d
+] 
+hash: 0000022626-809ccfb12a4f255c1d085a95d880d5da577e732588e86b1e34fb81472222601d
+[Reorganization (mutable refs instead of owned sessions)
+pe@pijul.org**20160608074033
+ Ignore-this: 68942b57015b8df183ab09658c64a46c
+] 
+hash: 0000026982-bbd4ad7d537888fbc648abf147aceb8c8225f0fcc4244d2a974e6ad7289c7566
+[Computing keys, and less buffer allocations.
+pe@pijul.org**20160608081824
+ Ignore-this: d82b00061e4aabaaed23c0f3b0af5fc6
+] 
+hash: 0000009697-4e342e4450b6351bba830525b7d2095be8dbc757505229602b134485954a7c47
+[cipher works
+pe@pijul.org**20160608151103
+ Ignore-this: 91c750fc6bb92b018f44152ce6b74203
+] 
+hash: 0000019613-7f8bcb0374a4a62a1a070cbc64690a4fbaf7f677e42810bc5028ae6ac610b7cd
+[Cipher + encryption/decryption tests.
+pe@pijul.org**20160608163933
+ Ignore-this: 8bf9571b8e6dc46d4d5b26ad14e2929d
+] 
+hash: 0000010165-ca893a7cca56fe93cac717cf7e535d21ddbe0a51b0a1e3661d8f3fea3f794d44
+[Refactoring.
+pe@pijul.org**20160609063248
+ Ignore-this: dc9e6e1256b088cc8b05348eb4dfe0c5
+] 
+hash: 0000028318-d42fbeae0418a924e3f0c4e9d88d9fe49cda10729a1485be55f639e5382cdfaa
+[Cleanup
+pe@pijul.org**20160609151811
+ Ignore-this: cad32b4311a4bae6a72628a716e006db
+] 
+hash: 0000001939-75ebde2b8e3726705ed4fb766baa3d8fec8d26f6a9df3eeaabbdb007075757d0
+[Module split
+pe@pijul.org**20160609184114
+ Ignore-this: b76f5d1fd0e0538e93b2be8721206856
+] 
+hash: 0000043391-cc8473da7a2b0aa34c442d8039bf87d376b1c07d7ef398ff848d5e79ad7121d7
+[New FFI bindings to libsodium (sodiumoxide is scary).
+pe@pijul.org**20160609215820
+ Ignore-this: f4669035cfe3f23f2153a06420a18f06
+] 
+hash: 0000022431-2a7883645d514ef61bd75839d00714dc2d633f03b88d93acd1464d6112eba8f6
+[Fully asynchronous reads and writes.
+pe@pijul.org**20160610061925
+ Ignore-this: a06704b7d9bd6f5b896d07b53ae38f89
+] 
+hash: 0000017327-e71e7d03d6ea368a856ba861e1a27432622f4044261e4274fe6de2d9d6109afb
+[Introduction of cryptobuf, secure byte buffers.
+pe@pijul.org**20160610135931
+ Ignore-this: 2afac0a84cfd37eb78aa24bff3864f5d
+] 
+hash: 0000040981-3f6ebde0d61f5ed81c4678aa185759de8d22be05b983450ccf2a82a854223ab5
+[Some cleanup, as_slice is not that evil, after all.
+pe@pijul.org**20160610141222
+ Ignore-this: 89ee6d4bde9f97c48867689bb2777fcc
+ 
+ (although I'd like Rust to have several kinds of unsafe).
+] 
+hash: 0000005965-80795dce4f2be13b3f3eb6cc24980a39c8b1ab9a605045cb57ab37a140c25ba4
+[Bidirectional communications with a client, finally!
+pe@pijul.org**20160610195042
+ Ignore-this: 47065a158b7153c1403dd735cffe89bc
+] 
+hash: 0000009150-384d94434139b0df8c4df841c029b4bc312dfee72948777321a27d7529af7200
+[Authentication
+pe@pijul.org**20160611054749
+ Ignore-this: 5b5a73e163f06f248f72405ca094d1ca
+] 
+hash: 0000006027-ec3ed389b414dfb8a09d9c09d89cca1ffd22e924399301748397687e24dde2a0
+[Almost safe libsodium wrapper (no more moves, still some copies)
+pe@pijul.org**20160611061413
+ Ignore-this: ef9a363e804851ad9fb39cb3ec869cae
+] 
+hash: 0000007159-94c4b5d4f57d53cd14af39600920cf17f0282d3268aae8f8fb4057ba0b7bcb2b
+[Smaller memzeros
+pe@pijul.org**20160611063455
+ Ignore-this: 644d3ace795c318621f4e5b3e8554639
+] 
+hash: 0000000435-a7732d3ba25fbb2d2dfe8bee122641cb0f3e8b99f484be7ce172ce99181c8dc9
+[Public key auth works. TODO: use tweetnacl instead of libsodium.
+pe@pijul.org**20160612095624
+ Ignore-this: d2b9788e781ae8be477331fb7c7e0efb
+] 
+hash: 0000035005-8f2917124ae436a04d0997fccac58c00a0ffbd2f7579ea09e0755cbae187b5a1
+[Tweetnacl
+pe@pijul.org**20160612111535
+ Ignore-this: c1a2570f92258ef1d04caba9ec5aba81
+] 
+hash: 0000043543-b7cb2892af706b315b8ef362b2dc134bf3dde9991bda110584d54010382d665e
+[Moved tweetnacl to its own crate
+pe@pijul.org**20160612113008
+ Ignore-this: 1b3b4f608e07f2ba53a44c82db142127
+] 
+hash: 0000038220-3a652022c2274dcd25ce5ca51c176f1a49be6d0fb61017e209d1c50b2612b42c
+[Channels work!
+pe@pijul.org**20160612133811
+ Ignore-this: 1f4ca4629330f18ad16bca2ada232309
+] 
+hash: 0000018166-9360b62fb0676f342625c1c0b0329dd271e7e9b57dfec8e68344c68463511e96
+[AuthResult -> Auth
+pe@pijul.org**20160612134117
+ Ignore-this: 715e3bf1e6c0356131e29e417faa8970
+] 
+hash: 0000001939-1e7f988f43f166a8d199313f0ef3fce9c47468379d70cf95dbaa5cac0dc86fbb
+[Removing debugging information
+pe@pijul.org**20160612134743
+ Ignore-this: e33912e26dbd29f05136f27e665f7799
+] 
+hash: 0000003594-240210800d8c09374ddc413cb4b4c98de57a58f650521e7c0e4df5d575ef2fc9
+[Stderr
+pe@pijul.org**20160612141717
+ Ignore-this: 36d973b644d3c1206d9d3d72f2cd6baa
+] 
+hash: 0000004284-9d25fc84a45d39f030e6e5fbd1eb5c6b0ed713060067cd6bada8796f80a5a338
+[Module splitting
+pe@pijul.org**20160612195646
+ Ignore-this: 1855940b077c794108c01dfa246b360a
+] 
+hash: 0000021535-48aff4dff681e6cb678b88afa9f3bfae965d6d4909913dee8de78b9ab00b6c16
+[Splitting
+pe@pijul.org**20160613102158
+ Ignore-this: e433c316c8f400dc47fb217ee177a314
+] 
+hash: 0000030569-e215e7ae98dd2afc6258638e60a5f23431b30b79e48762087387a31cfed37538
+[rustfmt
+pe@pijul.org**20160613102656
+ Ignore-this: 90d52454ca11d956aa8c68c97fd998b
+] 
+hash: 0000025160-199f7fd6cdef94c775284be9818d532b3237838cadda2576c9ffc03ecbad3c1c
+[More splitting: write loop
+pe@pijul.org**20160613110529
+ Ignore-this: c2eda16884f6eb27568fe18ef4715f78
+] 
+hash: 0000030097-7ca440d9e8c3e76ec3a47fe6b008087569d42a0919c9fded92eb4ce767e4b085
+[Comments
+pe@pijul.org**20160613110932
+ Ignore-this: 4e728452b01caca67844820faf6639f8
+] 
+hash: 0000000502-0f3f195e41139988e07e58da4d84e380e35a68fbb12b0856a7ffdec6a0a66bf1
+[Rekeying, when asked by the server
+pe@pijul.org**20160613154110
+ Ignore-this: 341e5bc94ac64ecd903258defa91acad
+] 
+hash: 0000035561-8cfd24b7d8039145c939405965c8d2e58d3774e507c25ea7b7614ac210741bea
+[Rekeying, when the server asks
+pe@pijul.org**20160613162757
+ Ignore-this: 19aacae880a570081f2fc751c7a6a508
+] 
+hash: 0000001816-7cacf8f62768e189b1d45dea1a1a7ce7fcf8059d387625af61e70e6f406e3f6d
+[-main
+pe@pijul.org**20160613193928
+ Ignore-this: 84af388bceec3b07d7c113058a619e64
+] 
+hash: 0000008957-7f2fb96f7e8d5253e7c0c65731e4282439963fe202c710c05cd0bcd2d66ff00f
+[Client has begun
+pe@pijul.org**20160613204652
+ Ignore-this: 14a41eee0cd6d8ba4ca6463de8ca7f2e
+] 
+hash: 0000025160-353d5eb2c66b16e47b8b0ad31044d46ca38fc71277cea466dfd9a8db8256ebaf
+[+server/mod.rs
+pe@pijul.org**20160613204817
+ Ignore-this: 55fd5b7c03ef19542464c0201b491a3d
+] 
+hash: 0000025393-faca19eace18828f0e4431a4e02ec32609a8b9e2bbae85539b455ffef2f0d474
+[-config
+pe@pijul.org**20160613204852
+ Ignore-this: 7a43102354dbae5088518a2501367a5b
+] 
+hash: 0000000130-6e57f5a3bf5a836ab333b7d8c6dc733ed05a321273285bc7012e4307ca5c5e44
+[Client, until Diffie-Hellman key exchange
+pe@pijul.org**20160614181352
+ Ignore-this: c297b4b361be41d42e5ca45c0f3c2cbb
+] 
+hash: 0000050430-b8ec80519e3ac83f2f4b9cfa8a84a1fa94e7471425015f6d3770c4f63edd5030
+[Forgotten file.
+pe@pijul.org**20160614181533
+ Ignore-this: 2a719865b3bcbad941a6847efe3870d9
+] 
+hash: 0000009811-a3305b7e494d0a05386b85889f8dabca0951fc30349c324bb765f29852376083
+[Client: everything until NEWKEYS
+pe@pijul.org**20160614203951
+ Ignore-this: 6184b1ed3c9ce085720842042f9582d8
+ 
+] 
+hash: 0000003512-4ff7635e1325f4299bf3dbd3e7756e78336dbae31eecc03b19f70f8bd3d89818
+[Full client, up to channel opening and sending messages. The API is not yet super convenient, though.
+pe@pijul.org**20160616184707
+ Ignore-this: 5f93785231182cd59b937f012c26f6ae
+] 
+hash: 0000033377-0845eea0cc06ff6839696c3874af38dd4a9dfbe71a7a9b58282b4feb2606b136
+[SSH Client with Interactive password.
+pe@pijul.org**20160618135705
+ Ignore-this: 357ace83b1f00384251fcb03d6672d9a
+] 
+hash: 0000015732-ea7475f4605133416f3ff3d629baa3f498c431183d883954268912ab28e7ad2b
+[Client key renegociation, non-hardcoded channel parameters
+pe@pijul.org**20160619121241
+ Ignore-this: 8e9fbd7737f4304d4faf261c08b40e90
+] 
+hash: 0000034250-50834407fe2a1b961018e5141316e6c37d30da979213fac30a5021a480ed2a87
+[Client-initiated rekeying
+pe@pijul.org**20160619125238
+ Ignore-this: cd883bf90aabb79949adddc31ad0a097
+] 
+hash: 0000001399-06a5b932b3782ede9af59ffff5e3bd0d89d6a54d057fd2b3a683a5a7cb7cac83
+[Huge simplification
+pe@pijul.org**20160622094537
+ Ignore-this: 9927d380a22b8bbe6dd1fbafdf70e353
+] 
+hash: 0000058306-9f85de1ec7390944e1c6a88b0d4c6b7ccab73cabca93f63ec86e9b7285d5c866
+[Refactoring
+pe@pijul.org**20160622100220
+ Ignore-this: 33257ca4d29aa1c0f9c6ccc458649325
+] 
+hash: 0000001806-aee5ea69ff85b65d7213d0f482613244ea39e12e80125b72d050d980bbcd5607
+[More refactoring
+pe@pijul.org**20160622103218
+ Ignore-this: 94485c3205125302f1190d87bd298dbe
+] 
+hash: 0000015037-96d7a7ac541bc86bcc61af94ed26e3d8a563325e69de2dd9898aaf46952b74c5
+[Debug
+pe@pijul.org**20160622112707
+ Ignore-this: a63673a399f983a209fb0636584dc5b9
+] 
+hash: 0000001216-9c86e36ff789b0ec6ca76ee7b379c166711662a3eaa6b0e7d91547305f1aa500
+[Client split
+pe@pijul.org**20160622112815
+ Ignore-this: 87985fc9e453919ac7a2b15eb8f8d662
+] 
+hash: 0000029891-017d05a938926022892125f1736adbf1205829865174e7f144a4189faf62c96d
+[It works, again
+pe@pijul.org**20160622145754
+ Ignore-this: 44c84f3bd40ed62fa1367de60c6f862e
+] 
+hash: 0000037738-7829b5be554ae28d5cad36d6c984dfa0562d1d79a91b7f6cbc1062e3fbbdcc67
+[Reader instead of hardcoded
+pe@pijul.org**20160622150114
+ Ignore-this: 6867088a44bdf5357cab7e10d3f5b98f
+] 
+hash: 0000000925-30b7d67e06a54c07bbb29eb3d5b572f8e8ac40dc680e81f9077a85bd472eae5e
+[More cutting of the client
+pe@pijul.org**20160622152548
+ Ignore-this: 8a9d945cf78730f8b261c8350cbdf05a
+] 
+hash: 0000010166-58a60aa8e9126fddc14e2d77cbfda67ba0d1b9c8f75a47fab7d2f27232c9309c
+[Correct rekey when initiated from the client
+pe@pijul.org**20160622163531
+ Ignore-this: 8a416a452ff602620ee577c73f432796
+] 
+hash: 0000010276-81ca3e7076bbdc64e3d782356e4950334a7debcd4dcc337776d675ac393c0582
+[Debugging the rekeying
+pe@pijul.org**20160622172706
+ Ignore-this: c17fde653a360c8f8eb76923edf8d1e4
+] 
+hash: 0000008626-ae036e61a6364a628657163214b94be5ca19d3d52fac4f36c16136b9c324749a
+[Split
+pe@pijul.org**20160623090924
+ Ignore-this: 9024b0be3d146c9d39e7aa1ab0d91f5e
+] 
+hash: 0000015376-2d6218c81b330530cdb0e2451ae0a2d6c3ee9b86f733fc7428125d3d9906ff86
+[Cleanup and more split
+pe@pijul.org**20160623091356
+ Ignore-this: 189fd6dac58376b0d35149478df19392
+] 
+hash: 0000003858-de380f6d3a309b92b5dc2aada7a56e1142ad8212fd35195977ecf19a51142236
+[More splitting
+pe@pijul.org**20160623092620
+ Ignore-this: 7fff4ff27b8a6d76faf6d5f99d6b1bc6
+] 
+hash: 0000013930-94bfeddd2a84f6673c2b945e2f2f72e7c986b1ea17982c4916b6472d5cbbcb3f
+[More splitting
+pe@pijul.org**20160623093552
+ Ignore-this: ea3b3db94bd06a35e45c0b86b863d611
+] 
+hash: 0000008034-bc3351da3d730f94ee286af2323d89937d4e62e04e19faf0270fea7eb63b55bb
+[Debugging
+pe@pijul.org**20160623103308
+ Ignore-this: f0f50e8cfca3595c8e669b9e4c937c2f
+] 
+hash: 0000002571-42f78328b66c3b1d33c3947e6d945ef208812b1107ac426d5567a2523dea7de2
+[Immediate filling of the write buffer, in some cases (so that we're ready to write whenever the stream becomes writable)
+pe@pijul.org**20160623124556
+ Ignore-this: cd4d3067677bcac15abe72e9941f08b0
+] 
+hash: 0000007621-ad0f0603caac5399c7c2ac482b815964e6e4b11123a9b929daa9dd45ccefe3e5
+[Cleanup
+pe@pijul.org**20160623124924
+ Ignore-this: a669d50f07a291e883c765e0fae55ac8
+] 
+hash: 0000001096-4073a4948d9fd3ae9c4e16194c4a0bd8566bd0547fc27312aab97257a72fb53a
+[Moving writes to the reading part
+pe@pijul.org**20160623125237
+ Ignore-this: 686120ae66c1317e14ce06c1ba019a1d
+] 
+hash: 0000002524-e1df58581b50c49e8bcc83fb4e3fea443fa94ba793c5e2c108be87961a153624
+[Simplification of server_verify_signature
+pe@pijul.org**20160623182102
+ Ignore-this: 448eddba6f391b933e70e79331d1adeb
+] 
+hash: 0000014257-ff05652e51e97b36c21a6f8d5ad79572e5165cae2c318cfd9fac1a9080f1a94a
+[More moves from write to read.
+pe@pijul.org**20160623190727
+ Ignore-this: d63d9d151933dc6966d7086ced24b982
+] 
+hash: 0000014701-c383bd84765f0428fc70fe7db71e6e2145bd1e25da04ea5fc5d896bb1a9e5265
+[More simplifications and moving stuff from write to read.
+pe@pijul.org**20160623191711
+ Ignore-this: feaae855588c9615e2c87aa630604d48
+] 
+hash: 0000004165-7a15ec1b600d25b0b3648324c8ff6af3b0752b80bb8e20b87fdddb0f2e65b007
+[Moving the rekeying code to its proper place
+pe@pijul.org**20160623192130
+ Ignore-this: 927f2f7b4b9181cd760ef4d00eed278c
+] 
+hash: 0000014010-742632e6136dfa16adbaa8913e44cdbb62c8eedb99cdd93dccd4a75bef204882
+[Write buffers now completely filled as soon as possible (maybe before the socket becomes writable).
+pe@pijul.org**20160623201622
+ Ignore-this: 18ae480e53c240154ba6e8e014680037
+] 
+hash: 0000012673-500711eac7f350885350a190a39a709ae3cee7ef61d341d28a5323935f052f86
+[Cleanup
+pe@pijul.org**20160623203037
+ Ignore-this: 81a98151457895c9957a4059974985b
+] 
+hash: 0000001962-da826c5306b22c78078c71c5ba8d4cb3607b23aab30a96b50ca4f966a9f84982
+[More simplifications to the server's write function
+pe@pijul.org**20160623204534
+ Ignore-this: e6820dc9252313c174b9225f6d4ddc49
+] 
+hash: 0000005102-18c7d1351320b64660c8fa9d74a2c4c4ba0a77d46bb0c978c451fe54303ad64a
+[Moving writes to the read function in the client (small steps)
+pe@pijul.org**20160623211156
+ Ignore-this: e92be85825669a1874b8c9d4c41d7a54
+] 
+hash: 0000002673-036bac56bb19f7bb681a5691cdedde48b80ce0d0676a6a7d73d2680c11c93ab1
+[Client rekey
+pe@pijul.org**20160624080601
+ Ignore-this: 5bdf259558eca880fc5b387dec61cb94
+] 
+hash: 0000002412-85ec271980c46b6cad5cdc364a3d8fa8e8d62ec074cd4a32c15b34b0e6fddf75
+[Moving write to read in the client
+pe@pijul.org**20160624084117
+ Ignore-this: efee379f371347d116ccd9fe36b37fec
+] 
+hash: 0000001664-6a711dc50d8ae88a7b8113b2a3406e460dd2bd10aea533ccfd6a14150185a344
+[Moving more stuff to read
+pe@pijul.org**20160624092928
+ Ignore-this: 3139856ce791e82049613b6161241970
+] 
+hash: 0000007614-0aee0c0bdd54c2a9d1b2ff83c58979d2fba0beff7ab5427350003a44d1174d05
+[Again moving writes to read
+pe@pijul.org**20160624095639
+ Ignore-this: f67385f8c1dd0404d12080b55b40e20d
+] 
+hash: 0000004098-c4df19a2e60a2557074941886f3852ec7c80c0fd72041f0a7260b6e4416e11d8
+[Warnings
+pe@pijul.org**20160624100502
+ Ignore-this: 5bf6d1ed93bdb8783f3ae35c983a9f79
+] 
+hash: 0000001250-7f29b8497d9609105b916971c6fe664d46c69bdc5c97717058a78c4cd66d0e34
+[Moving writes to reads, again
+pe@pijul.org**20160624101524
+ Ignore-this: a17934faf73be7f4eabd38a880cb26c2
+] 
+hash: 0000002678-d365fab6eab663dddacf9cfa93a5bb3d6176ca75c38b2c2cbce568903cf9babd
+[auth banner
+pe@pijul.org**20160624105014
+ Ignore-this: 38b9efe2e0e83182391b19f25de5d636
+] 
+hash: 0000000759-3f4e0b842026d5d7e6b444adf17dfcf9b0dd18098858dd64491940199969f3cc
+[No unwrap, no unsafe
+pe@pijul.org**20160628111959
+ Ignore-this: 5748e9684a4904e9c971bc0f9b9fb76b
+] 
+hash: 0000037770-d0b1bb4d2f2f62748e2e793a538121b5d6b79a0d9b352a61ee370524ec480658
+[Various refactorings
+pe@pijul.org**20160629082833
+ Ignore-this: 99e8b1920147ed8a4585a98fcd3092df
+] 
+hash: 0000022043-cdab9472ecc496ea6a3e6d991bbd743a4063b2d3d536c8994c66d0ff9c507347
+[Window adjust, server, receive
+pe@pijul.org**20160629211114
+ Ignore-this: aef0b0100028c93270e669b353a431a9
+] 
+hash: 0000009284-6aebb3d8a09c4bf006c4605cf21a698db81d35610699108b4707a223fdaa5353
+[Window size, server send.
+pe@pijul.org**20160630072742
+ Ignore-this: abe3d5798567e7905eeb5dee0f5c4560
+] 
+hash: 0000004378-359ca73f942387808418a3dc3a06b03a5a1f41eb6835c55c02a0ddb0c145b08f
+[Server key validation
+pe@pijul.org**20160630074426
+ Ignore-this: 3df7bbcc99ef1483c7c398549acb3ab9
+] 
+hash: 0000003393-c8dec06b2c464a05f32203a79e268f3c6f8373f7c1a983940b27b33764d4b626
+[More generic cipher read/write, and unified data traits between client and server.
+pe@pijul.org**20160630085742
+ Ignore-this: 6b4efac991091abf0367de977550641a
+] 
+hash: 0000032269-2e2216056a17b86c23c993cddb9765c04c30a421767bee7d54b3a367f17615fb
+[Window size for client
+pe@pijul.org**20160630122906
+ Ignore-this: e311594e034312e694ecc168971ccb2c
+] 
+hash: 0000003426-d9426893054cefb2f3ee068eb156d50827745abfab16c46e5fda3b80d3853f88
+[Proper disconnect (transport layer macro)
+pe@pijul.org**20160630143019
+ Ignore-this: dd82350a8c64944cd2fe6d0eb97fda07
+] 
+hash: 0000016016-746b5b1392fb6ddb27c8fc597083fed2ba0bf79b4c3cfdf0cc9793b90190ec56
+[Refactoring of SSHBuffer
+pe@pijul.org**20160630155351
+ Ignore-this: 83551406a48db03466b04a736e8295ff
+] 
+hash: 0000023092-bdade6b46d38804870b9cc7932279369b151448f7f47cde821ea7aef6af2c5e4
+[Handling of transport packets
+pe@pijul.org**20160630155512
+ Ignore-this: b3dd40a6ae128686a99baa5ede51b88
+] 
+hash: 0000000169-924726c5e328574fb2f0cb6d393f923dd709ad5053ae8d9681df23f169a815b8
+[Refactoring
+pe@pijul.org**20160630171614
+ Ignore-this: 82f93609aa1873ab5155b22252f0e400
+] 
+hash: 0000007233-f262789d11066b7bcac15f363e26eb8a17eaf4a9b56c7f2a5c6652396efadb26
+[Massive refactoring. Removal of "parsed str" types.
+pe@pijul.org**20160630224124
+ Ignore-this: f0dcc59c9046d27c20cb7377bf4bd1c3
+] 
+hash: 0000033409-f228a6fb02160d3e4784f601f18ac3481b7b32282f2a9ca280e9562a0a083051
+[Some cleanup, and Default instance for server conf
+pe@pijul.org**20160701100946
+ Ignore-this: 5bb64c117b61dbcbcb950a8eef1a3dfd
+] 
+hash: 0000003565-bf144fbfe6ffe3092a5fb3a21a2beab36f98007d75730f5f021ea88a9cb9af6f
+[It follows...
+pe@pijul.org**20160701104033
+ Ignore-this: 91dd1a2d1b81a54089488793aa3eedfd
+] 
+hash: 0000005045-2f6f7f6fc12e3fba08a13c0cce89023ddc9ed92c8c79d8e04358fddaf5022eaa
+[Giant cleanup
+pe@pijul.org**20160701112656
+ Ignore-this: 310530ec5f4dcabf83879afe2455f434
+] 
+hash: 0000011808-1f61654e34dee451467aaa3e239dd86361abe8253deb19322403a961ae8ee41a
+[Cargo.toml
+pe@pijul.org**20160701113213
+ Ignore-this: f44826eca6895b4c363df17c4c585252
+] 
+hash: 0000000322-692b74df8055315be183787c113801cf815e740b0351281de048e007421b62d2
+[license
+pe@pijul.org**20160701114005
+ Ignore-this: 686cc386281706c23d09a55c2c8ce8b0
+] 
+hash: 0000023839-e3cf005c56bcec3e00b25458da1dc4d1bf15e05b3a201aae4c76aa4bc32c613f
+[Packages versions
+pe@pijul.org**20160701114948
+ Ignore-this: 3e919a0ed6d52ee6203a384ae0e4c2ce
+] 
+hash: 0000000352-e829fbaa5f7fa7f264c33fa6638a7e76c7c16af01a44b11e5a55037d6cd08c69
+[Apply some of Clippy's suggestions
+killercup@gmail.com**20160701144507
+ Ignore-this: 1668c1189b2555eb54ecc773d3f97a4f
+] 
+hash: 0000016235-d7e5ddbc6d7ba0f6092e4ee3fb817273ed68d3964812ac9fdd9f885edf9b3883
+[Rustfmt
+killercup@gmail.com**20160701144851
+ Ignore-this: b72189a6e61300f17bdb9119235388eb
+] 
+hash: 0000103334-9bd2adbdbcc6d3b8adec2f4f9acc159d80c9944095ec236ce9642a2db56d37a7
